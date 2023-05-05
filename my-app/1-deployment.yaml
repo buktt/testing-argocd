@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: amakovsky/testing-argocd:nginx1.1
+          image: amakovsky/testing-argocd:nginx
           ports:
             - containerPort: 80
